@@ -1,0 +1,27 @@
+<HTML>
+<HEAD>
+
+<SCRIPT LANGUAGE="JavaScript">
+
+function Disab() {
+frm=document.forms[0]
+if(frm.cbox.checked)
+{frm.Button1.disabled=true}
+else {frm.Button1.disabled=false}
+}
+
+</SCRIPT>
+
+
+</HEAD>
+<BODY TEXT="000000" BGCOLOR="FFFFFF">
+
+<form>
+<div align="center">
+<input name="cbox" type="checkbox" id="cbox" value="checkbox" onClick=Disab();>
+Click here to Enable/Disable Button</div>
+<p align="center">
+<input type=button onClick="alert('Button pressed!')" value="Button" name="Button1">
+</form>
+</BODY>
+</HTML>

@@ -1,0 +1,85 @@
+  /****************************/
+ /* vlaCalendar LostMobiles_cal */
+/****************************/
+
+/* Picker */
+
+.LostMobiles_cal .pickerBackground {
+	background-image: url('../images/LostMobiles_cal/calendar_background.png');
+}
+/* Background for IE6 - code does not validate as it is a hack */
+*html .LostMobiles_cal .pickerBackground {
+	background-image: url('../images/LostMobiles_cal/calendar_background.gif');
+}
+
+/* Calender */
+
+.LostMobiles_cal, .LostMobiles_cal table {
+	font-family: "Lucida Grande", LucidaGrande, "Lucida Sans", Geneva, Verdana, Sans Serif;
+	font-size: 11px;
+}
+.LostMobiles_cal table {
+	color: white;
+	background-color: black;
+}
+
+.LostMobiles_cal .arrowLeft {
+	background-image: url('../images/LostMobiles_cal/arrowleft.gif');
+}
+.LostMobiles_cal .arrowRight {
+	background-image: url('../images/LostMobiles_cal/arrowright.gif');
+}
+.LostMobiles_cal .arrowLeft:hover {
+	background-image: url('../images/LostMobiles_cal/arrowleft_hover.gif');
+}
+.LostMobiles_cal .arrowRight:hover {
+	background-image: url('../images/LostMobiles_cal/arrowright_hover.gif');
+}
+
+.LostMobiles_cal .label {
+	color: #ccff00 
+}
+.LostMobiles_cal .noHover:hover {
+	color: #ccff00 !important;
+}
+.LostMobiles_cal .label:hover {
+	color: white;
+}
+
+.LostMobiles_cal .month th {
+	border-bottom-color: black;
+	color: #999;
+	text-transform: uppercase;
+}
+
+/* Month */
+
+.LostMobiles_cal .month td:hover {
+	color: #ccff00;
+}
+
+.LostMobiles_cal .month td.selected {
+	color: #ccff00;
+}
+
+.LostMobiles_cal .month td.outsideDay, .LostMobiles_cal .year td.outsideYear {
+	color: #313131;
+}
+.LostMobiles_cal .month td.outsideDay:hover, .LostMobiles_cal .year td.outsideYear:hover {
+	color: #999;
+}
+
+/* Year & decade */
+
+.LostMobiles_cal .year td:hover {
+	color: #ccff00;
+}
+.LostMobiles_cal .year td.current {
+	color: white;
+}
+
+.LostMobiles_cal .year td.current:hover, .LostMobiles_cal .year td.selectedcurrent, .LostMobiles_cal .year td.selectedcurrent:hover,
+	.LostMobiles_cal .year td.selected:hover, .LostMobiles_cal .month td.selected:hover, .LostMobiles_cal .year td.current, .LostMobiles_cal .year td:hover,
+	.LostMobiles_cal .month td.selected, .LostMobiles_cal .month td:hover, .LostMobiles_cal .year td.selected {
+	background: none;
+}

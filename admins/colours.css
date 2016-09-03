@@ -1,0 +1,188 @@
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.Headings {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12pt;
+	font-weight: bold;
+	color: #030;
+}
+.Headingswhite {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12pt;
+	font-weight: bold;
+	color: #F1F1F1;
+}
+
+
+.Headingswhitemain {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16pt;
+	font-weight: bold;
+	color: #F1F1F1;
+}
+
+
+.Contents {
+	font-family: Tahoma;
+	font-size: 8.8pt;
+	color: #333333;
+	line-height: 1.5em;
+	}
+A.redlinks {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 8.5pt;
+	COLOR: #FF0000;
+	FONT-FAMILY: Tahoma;
+	text-decoration: none;
+}
+A.redlinks:hover {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 8.5pt;
+	COLOR: #66CCFF;
+	FONT-FAMILY: Tahoma;
+	
+}
+
+A.footer {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 6.5pt;
+	COLOR: #363636;
+	FONT-FAMILY: Tahoma;
+	text-decoration: none;
+}
+A.footer:hover {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 6.5pt;
+	COLOR: #66CCFF;
+	FONT-FAMILY: Tahoma;
+	
+}
+A.forumlinks {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 9pt;
+	COLOR: #363636;
+	FONT-FAMILY: Tahoma;
+	text-decoration: none;
+}
+A.forumlinks:hover {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 9pt;
+	COLOR: #66CCFF;
+	FONT-FAMILY: Tahoma;
+	
+}
+.footertxt {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 7pt;
+	COLOR: #363636;
+	FONT-FAMILY: Tahoma;
+	text-decoration: none;
+}
+A.menu {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 10pt;
+	font-weight:bold;
+	COLOR: #DEDEDE;
+	FONT-FAMILY: Tahoma;
+	text-decoration: none;
+}
+A.menu:hover {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 10pt;
+	font-weight:bold;
+	COLOR: #FFFFFF;
+	FONT-FAMILY: Tahoma;
+	
+}
+A.contactlinks {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 8.5pt;
+	font-weight:bold;
+	COLOR: #39B8D2;
+	FONT-FAMILY: Tahoma;
+	text-decoration: none;
+}
+A.contactlinks:hover {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 8.5pt;
+	font-weight:bold;
+	COLOR: #66CCFF;
+	FONT-FAMILY: Tahoma;
+	
+}
+A.rightmenu {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 10pt;
+	font-weight:bold;
+	COLOR: #39B8D2;
+	FONT-FAMILY: Tahoma;
+	text-decoration: none;
+}
+A.rightmenu:hover {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 10pt;
+	font-weight:bold;
+	COLOR: #66CCFF;
+	FONT-FAMILY: Tahoma;
+	
+}
+.ContentBold {
+	font-family: Tahoma;
+	font-size: 9.5pt;
+	font-weight: bold;
+	color: #2B9DB8;
+	text-decoration: none;
+}
+.ContentBlue {
+	font-family: Tahoma;
+	font-size: 9pt;
+	color: #2B9DB8;
+	text-decoration: none;
+}
+.inputbox {
+	font-family: Tahoma;
+	font-size: 9pt;
+	color: #00CCFF;
+	text-transform: none;
+	text-align: left;
+	padding-left: 2px;
+	border: 1px solid #66CCCC;
+}
+.successtxt {
+	font-family: Tahoma;
+	font-size: 9pt;
+	color: #00CC33;
+	text-decoration: none;
+}
+.errtxt {
+	font-family: Tahoma;
+	font-size: 9pt;
+	font-weight: normal;
+	color: #FF3300;
+	text-decoration: none;
+}.btn {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 9pt;
+	color: #000033;
+	border: 1px solid #666666;
+	background-color: #63CFCE;
+	font-weight: normal;
+}
+.serchbtn {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-weight: normal;
+	text-transform: uppercase;
+	color: #000000;
+	border: 1px solid #36BED6;
+	background-image: url(images/images%20copy%20copy.png);
+	background-repeat:no-repeat;
+}
+table {
+border-collapse:collapse;
+margin-bottom:25px;
+}

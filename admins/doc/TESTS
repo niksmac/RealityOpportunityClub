@@ -1,0 +1,13 @@
+If you have some time, I will appreciate if you could perform some tests to
+ensure that phpMyEdit is working right with every table.
+
+[1] Access generated script. Press "Search". Remember number of displayed
+records and the whole look of the page. Now press "Query". The page should look
+the same (of course except thing, that filter is opened) and the number of
+displayed record should not change.
+
+[2] Ensure you have $opts['display']['query'] enabled. Access generated script.
+Make some filtering. Click on the "Clear" link in the query line. You will be
+purpously moved to the first page. Click on the "Next". You should get the page
+no. 2.
+
