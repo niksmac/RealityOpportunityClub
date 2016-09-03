@@ -1,0 +1,92 @@
+.menu{
+	width:800px;
+	height:60px;
+	position: absolute;
+	top:289px;
+	left:165px;
+	font-family: "Trebuchet MS", sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.item{
+    position:relative;
+    background-color:#f0f0f0;
+    float:right;
+    width:63px;
+    margin:0px 5px;
+    height:63px;
+    border:2px solid #ddd;
+    -moz-border-radius:32px;
+    -webkit-border-radius:32px;
+    border-radius:32px;
+    -moz-box-shadow:1px 1px 3px #555;
+    -webkit-box-shadow:1px 1px 3px #555;
+    box-shadow:1px 1px 3px #555;
+    cursor:pointer;
+    overflow:hidden;
+}
+
+.link{
+    left:2px;
+    top:2px;
+    position:absolute;
+    width:63px;
+    height:60px;
+}
+.icon_home{
+    background:transparent url(../images/home.png) no-repeat top left;
+}
+.icon_mail{
+    background:transparent url(../images/mail.png) no-repeat top left;
+}
+.icon_help{
+    background:transparent url(../images/rocshop.png) no-repeat top left;
+}
+.icon_find{
+    background:transparent url(../images/retail.png) no-repeat top left;
+}
+.icon_photos{
+    background:transparent url(../images/suppiler.png) no-repeat top left;
+}
+.item_content{
+    position:absolute;
+    height:60px;
+    width:220px;
+    overflow:hidden;
+    left:65px;
+    top:7px;
+    background:transparent;
+    display:none;
+}
+.item_content h2{
+    color:#aaa;
+    text-shadow: 1px 1px 1px #fff;
+    background-color:transparent;
+    font-size:14px;
+}
+.item_content a{
+    background-color:transparent;
+    float:left;
+    margin-right:7px;
+    margin-top:3px;
+    color:#bbb;
+    text-shadow: 1px 1px 1px #fff;
+    text-decoration:none;
+    font-size:12px;
+}
+.item_content a:hover{
+    color:#0b965b;
+}
+.item_content p {
+    background-color:transparent;
+    display:none;
+}
+.item_content p input{
+    border:1px solid #ccc;
+    padding:1px;
+    width:155px;
+    float:left;
+    margin-right:5px;
+}

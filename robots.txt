@@ -1,0 +1,29 @@
+User-agent: *
+Allow: /
+
+Disallow: /admins
+Disallow: /db_backup
+Disallow: /captcha
+Disallow: /careers
+Disallow: /connect
+Disallow: /css
+Disallow: /downs
+Disallow: /includes
+Disallow: /js
+Disallow: /resources
+Disallow: /shop
+Disallow: /users
+Disallow: /sandbox
+Disallow: /includes
+Disallow: /olshop
+Disallow: /olsupplier
+Disallow: /rocshop
+Disallow: /db_backup
+Disallow: /cache
+
+
+
+Sitemap: http://www.ropclub.com/sitemap.xml
+Sitemap: http://www.ropclub.com/sitemap.txt
+Sitemap: http://www.ropclub.com/urllist.txt
+Sitemap: http://www.ropclub.com/vsitemap.xml

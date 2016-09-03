@@ -1,0 +1,348 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+font-family:Tahoma;
+font-size:9pt;
+background-color: #FBFBFB;
+}
+h1 {
+font-size: 12pt;
+color: #009900;
+margin:0px;
+padding:0px;
+font-weight:normal;
+text-decoration:none;
+}
+h2 {
+margin-left:10px;
+font-size: 10pt;
+color: #FF0000;
+}
+h3 {
+margin-left:10px;
+font-size: 9pt;
+color:#FFFFFF;
+}
+
+
+
+ul#menu, ul#menu ul {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  width: 18em;
+}
+
+ul#menu a {
+  display: block;
+  text-decoration: none;	
+}
+
+ul#menu li {
+  margin-top: 1px;
+  
+}
+
+ul#menu li a {
+  background: #7A7A7A;
+  color: #333333;
+  padding: 0.5em;
+  background-image:url(../img/menubg1.jpg);
+}
+
+ul#menu li a:hover {
+  background: #336600;
+  background-image:url(../img/menubg2.jpg);
+}
+
+ul#menu li ul li a {
+  background: #ccc;
+  color: #000;
+  padding-left: 20px;
+  background-image:url(../img/menubg2.jpg);
+}
+
+ul#menu li ul li a:hover {
+  background: #aaa;
+  border-left: 5px #336600 solid;
+  padding-left: 15px;
+  background-image:url(../img/menubg1.jpg);
+}
+
+
+
+
+#outerdiv {
+float : left;
+margin : 0 auto;
+width : 100%;
+margin-top : 5px;
+}
+#bannertop {
+margin : 0 auto;
+width : 1000px;
+height : 100px;
+border-radius: 4px;
+color: rgba(0, 0, 0, 0.7);
+background:url(../img/divider.jpg) no-repeat bottom;
+}
+#middlecontainer {
+margin : 0 auto;
+width : 1000px;
+height : 1000px;
+border-radius: 4px;
+color: rgba(0, 0, 0, 0.7);
+}
+#leftmenu { 
+margin : 0 auto;
+width : 250px;
+height : 100px;
+border-radius: 4px;
+float:left;
+color: rgba(0, 0, 0, 0.7);
+}
+#rightcontent { 
+margin : 0 auto;
+width : 750px;
+height:auto;
+overflow:hidden;
+border-radius: 4px;
+float: right;
+color: rgba(0, 0, 0, 0.7);
+}
+#footer {
+margin : 0 auto;
+width : 1000px;
+height : 100px;
+border-radius: 4px;
+color: rgba(0, 0, 0, 0.7);
+background:url(../img/divider.jpg) no-repeat top;
+}
+#footer li {
+list-style : none;
+display : inline;
+padding-left : 15px;
+padding-top:10px;
+}
+#footer li a {
+color:#FFFFFF;
+text-decoration : none;
+}
+#footer li a:hover {
+color:#003300;
+text-decoration : none;
+}
+#loginbox {
+margin : 0 auto;
+width : 500px;
+height:auto;
+border-radius: 6px;
+color: rgba(0, 0, 0, 0.7);
+border:1px solid #E0E0E0;
+margin-top:100px;;
+}
+
+input, textarea { 
+padding: 4px;
+outline: 0;
+border-radius: 4px;
+border:1px solid #E0E0E0;
+font: normal 13px/100% Verdana, Tahoma, sans-serif;
+width: auto;
+}
+
+textarea { 
+width: 250px;
+max-width: 250px;
+line-height: 150%;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus { 
+border-color: #C9C9C9; 
+-webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 8px;
+}
+
+.submit input {
+width: auto;
+padding: 6px 8px;
+background: #66CC33;
+border: 0;
+font-size: 12px;
+color: #FFFFFF;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+cursor: pointer;
+}
+
+
+.submit input:hover {
+width: auto;
+padding: 6px 8px;
+background: #006600;
+border: 0;
+font-size: 12px;
+color: #FFFFFF;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+cursor: pointer;
+}
+.reset input {
+width: auto;
+padding: 6px 8px;
+background: #FF66CC;
+border: 0;
+font-size: 12px;
+color: #FFFFFF;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+cursor: pointer;
+}
+.reset input:hover {
+width: auto;
+padding: 6px 8px;
+background: #FF3399;
+border: 0;
+font-size: 12px;
+color: #FFFFFF;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+cursor: pointer;
+}
+
+select {
+padding: 4px;
+border: solid 1px #E5E5E5;
+outline: 0;
+font: normal 13px/100% Verdana, Tahoma, sans-serif;
+width: 200px;
+background: #FFFFFF url('bg_form.png') left top repeat-x;
+background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF));
+background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px);
+box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+-moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+-webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+}
+
+.link {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:9pt;
+color:#0066FF;
+}
+.link:hover {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:9pt;
+color:#003399;
+}
+
+.suggestionsBox {
+position: relative;
+left: 30px;
+margin: 10px 0px 0px 0px;
+width: 200px;
+background-color: #D7D7D7;
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+border: 1pt solid #C1C1C1;	
+color: #111111;
+}
+
+.suggestionList {
+margin: 0px;
+padding: 0px;
+}
+
+.suggestionList li {
+
+margin: 0px 0px 3px 0px;
+padding: 3px;
+cursor: pointer;
+}
+
+.suggestionList li:hover {
+background-color: #659CD8;
+}
+.okdiv {
+width:100%;
+background-color: #B9FFCB;
+border-top:1px solid #66CC66;
+border-bottom:1px solid #66CC66;
+height:auto;
+text-align:center;
+color: #006600;
+padding:5px 0px 5px 0px;
+}
+.notokdiv {
+width:100%;
+background-color: #FFCCCC;
+border-top:1px solid #FF3300;
+border-bottom:1px solid #FF3300;
+height:auto;
+text-align:center;
+color: #990000;
+padding:5px 0px 5px 0px;
+}
+
+.yellowdiv {
+width:100%;
+background-color: #FFFF99;
+border-top:1px solid #FF9900;
+border-bottom:1px solid #FF9900;
+height:auto;
+text-align:center;
+color: #990000;
+padding:5px 0px 5px 0px;
+}
+
+.delvdiv {
+width:100%;
+background-color: #99FF66;
+border-top:1px solid #99CC00;
+border-bottom:1px solid #99CC00;
+height:auto;
+text-align:center;
+color: #000000;
+padding:5px 0px 5px 0px;
+}
+
+
+
+/* tables */
+table.tablesorter {
+	font-family:arial;
+	background-color: #CDCDCD;
+	margin:10px 0pt 10px;
+	font-size: 8pt;
+	width: 100%;
+	text-align: left;
+}
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+	background-color: #e6EEEE;
+	border: 1px solid #FFF;
+	font-size: 8pt;
+	padding: 4px;
+}
+table.tablesorter thead tr .header {
+	background-image: url(../img/bg.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+table.tablesorter tbody td {
+	color: #3D3D3D;
+	padding: 4px;
+	background-color: #FFF;
+	vertical-align: top;
+}
+table.tablesorter tbody tr.odd td {
+	background-color:#F0F0F6;
+}
+table.tablesorter thead tr .headerSortUp {
+	background-image: url(../img/asc.gif);
+}
+table.tablesorter thead tr .headerSortDown {
+	background-image: url(../img/desc.gif);
+}
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+background-color: #8dbdd8;
+}

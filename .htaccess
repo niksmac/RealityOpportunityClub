@@ -1,0 +1,27 @@
+# Error Pages
+#ErrorDocument 404 http://www.ropclub.com/404.php
+#ErrorDocument 408 http://www.ropclub.com/408.php
+# MIME Types
+AddType application/xml xml
+AddType application/pdf pdf
+
+
+<Ifmodule mod_rewrite.c>
+Options +FollowSymlinks 
+RewriteEngine on 
+RewriteBase / 
+ 
+### re-direct IP address to www
+### re-direct non-www to www
+### re-direct any parked domain to www of main domain
+RewriteCond %{http_host} !^www.ropclub.com$ [nc]
+RewriteRule ^(.*)$ http://www.ropclub.com/$1 [r=301,nc] 
+####
+
+##RewriteRule ^id/([^/]*)$ /roc-bin-genealogy.php?id=$1 [L]
+
+</Ifmodule>
+
+# Redirects (from site path to URL)
+Redirect careers http://roc-careers.php
+
