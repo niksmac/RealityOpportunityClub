@@ -1,0 +1,105 @@
+/* (C) 2007 YOOtheme.com */
+
+body.yootools-black div.yoo-tooltip div.default .tooltip-tl {
+	background: url(images/bubble_tl.png) 0 0 no-repeat;
+}
+
+body.yootools-black div.yoo-tooltip div.default .tooltip-tr {
+	background: url(images/bubble_tr.png) 100% 0 no-repeat;
+}
+
+body.yootools-black div.yoo-tooltip div.default .tooltip-t {
+	background: url(images/bubble_t.png) 0 0 repeat-x;
+}
+
+body.yootools-black div.yoo-tooltip div.default .tooltip-l {
+	background: url(images/bubble_l.png) 0 0 repeat-y;
+}
+
+body.yootools-black div.yoo-tooltip div.default .tooltip-r {
+	background: url(images/bubble_r.png) 100% 0 repeat-y;
+}
+
+body.yootools-black div.yoo-tooltip div.default .tooltip-m {
+	background: #191919;
+}
+
+body.yootools-black div.yoo-tooltip div.default .tooltip-bl {
+	background: url(images/bubble_bl.png) 0 0 no-repeat;
+}
+
+body.yootools-black div.yoo-tooltip div.default .tooltip-br {
+	background: url(images/bubble_br.png) 100% 0 no-repeat;
+}
+
+body.yootools-black div.yoo-tooltip div.default .tooltip-b {
+	background: url(images/bubble_b.png) 0 0 repeat-x;
+}
+
+body.yootools-black div.yoo-tooltip div.default .tooltip-arrow {
+	background: url(images/bubble_arrow.png) 50% 0 no-repeat;
+}
+
+body.yootools-black div.yoo-tooltip div.default .tooltip-close {
+	background: url(images/close.png) 0 0 no-repeat;
+}
+/* (C) 2007 YOOtheme.com */
+
+div.yoo-tooltip-toggler {
+	cursor: pointer;
+}
+
+div.yoo-tooltip div.default .tooltip-tl {
+	background: url(images/blue/bubble_tl.png) 0 0 no-repeat;
+	position: relative; /* for close button */
+}
+
+div.yoo-tooltip div.default .tooltip-tr {
+	padding: 0px 15px 0px 15px;
+	background: url(images/blue/bubble_tr.png) 100% 0 no-repeat;
+}
+
+div.yoo-tooltip div.default .tooltip-t {
+	background: url(images/blue/bubble_t.png) 0 0 repeat-x;
+}
+
+div.yoo-tooltip div.default .tooltip-l {
+	background: url(images/blue/bubble_l.png) 0 0 repeat-y;
+}
+
+div.yoo-tooltip div.default .tooltip-r {
+	padding: 0px 15px 0px 15px;
+	background: url(images/blue/bubble_r.png) 100% 0 repeat-y;
+}
+
+div.yoo-tooltip div.default .tooltip-m {
+	background: #ffffff;
+	overflow: hidden;
+}
+
+div.yoo-tooltip div.default .tooltip-bl {
+	background: url(images/blue/bubble_bl.png) 0 0 no-repeat;
+}
+
+div.yoo-tooltip div.default .tooltip-br {
+	padding: 0px 15px 0px 15px;
+	background: url(images/blue/bubble_br.png) 100% 0 no-repeat;
+}
+
+div.yoo-tooltip div.default .tooltip-b {
+	background: url(images/blue/bubble_b.png) 0 0 repeat-x;
+}
+
+div.yoo-tooltip div.default .tooltip-arrow {
+	background: url(images/blue/bubble_arrow.png) 50% 0 no-repeat;
+}
+
+div.yoo-tooltip div.default .tooltip-close {
+	position: absolute;
+	top: 8px;
+	right: 10px;
+	width: 16px;
+	height: 16px;
+	background: url(images/blue/close.png) 0 0 no-repeat;
+	cursor: pointer;
+}

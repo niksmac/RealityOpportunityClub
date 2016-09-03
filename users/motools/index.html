@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset: UTF-8" />
+<title>ToolTip_mootools script_hotajax.org</title>
+ <link rel="stylesheet" href="tooltip.css" type="text/css" />  
+<script type="text/javascript" src="mootools.js"></script>
+<script type="text/javascript" src="tooltip.js"></script>
+<style type="text/css">
+<!--
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	line-height: 2.5em;
+	font-size: 14px;
+    padding:25px;
+	margin:150px 100px 0 100px;
+	border: 1px solid #d8d7d7;
+	
+}
+span.info {
+    display: block;
+	padding: 1px;
+	margin-bottom: 1px;
+	background-color: #FFFFCC;
+	border: 1px solid #d8d7d7;
+	color: #000;
+}
+-->
+</style>
+</head>
+
+<body>
+<div class="body">
+<div style="float: right; margin: 40px 68px 0px 0px;"><strong>Image display parameter (display: 'block'):</strong>
+  <div id="tooltip-1" class="tooltip-toggler"><img title="ToolTip!" alt="ToolTip!" src="images/logo.png" /></div><script type="text/javascript">new ToolTip('tooltip-1', 'The ToolTip plugin can appear hovering text, images or any other kind of HTML content.', { mode: 'cursor', display: 'block', width: 250, style: 'default', sticky: 1 });</script><br />
+</div>
+<strong>ToolTip with sticky option (sticky: 0):</strong> 
+<div id="tooltip-2" class="tooltip-toggler">Hover here!</div>
+
+  <script type="text/javascript">new ToolTip('tooltip-2', '<img style="margin: 20px 0px 0px -20px;" width="224" height="68" align="right" title="ToolTip!" alt="ToolTip!" src="logo.png" /><strong>ToolTip</strong><br />The Tooltip plugin can have different widths.', { mode: 'cursor', display: 'inline', width: 300, style: 'default', sticky: 0 });</script><br />
+  <strong>ToolTip with text:</strong> 
+  <div id="tooltip-3" class="tooltip-toggler">Hover here!</div>
+
+  <script type="text/javascript">new ToolTip('tooltip-3', 'The ToolTip plugin can display any kind of text inside a tooltip.', { mode: 'cursor', display: 'inline', width: 250, style: 'default', sticky: 0 });</script><br />
+
+
+  <strong>ToolTip with image:</strong> 
+  <div id="tooltip-4" class="tooltip-toggler">Hover here!</div>
+  <script type="text/javascript">new ToolTip('tooltip-4', '<img style="margin: 20px 0px 0px -20px;" width="224" height="68" align="right" title="ToolTip!" alt="ToolTip!" src="logo.png" />The ToolTip plugin can display any image inside a tooltip.', { mode: 'cursor', display: 'inline', width: 250, style: 'default', sticky: 0 });</script><br />
+
+  <strong>ToolTip with HTML content:</strong> 
+  <div id="tooltip-5" class="tooltip-toggler">Hover here!</div>
+
+  <script type="text/javascript">new ToolTip('tooltip-5', '<strong>ToolTip</strong><br /><span class="info">The ToolTip plugin can display any kind of HTML content inside a tooltip.</span>', { mode: 'cursor', display: 'inline', width: 250, style: 'default', sticky: 0 });</script><br />
+
+  <strong>ToolTip with width 300px:</strong> 
+  <div id="tooltip-6" class="tooltip-toggler">Hover here!</div>
+
+  <script type="text/javascript">new ToolTip('tooltip-6', '<img style="margin: 20px 0px 0px -20px;" width="224" height="68" align="right" title="ToolTip!" alt="ToolTip!" src="logo.png" />The Tooltip plugin can have different widths.', { mode: 'cursor', display: 'inline', width: 300, style: 'default', sticky: 0 });</script><br />
+
+  
+
+
+  
+  <strong>width 450px and the mode (mode: 'trigger'):</strong> 
+  <div id="tooltip-7" class="tooltip-toggler">Hover here!</div>
+
+  <script type="text/javascript">new ToolTip('tooltip-7', '<img style="margin: 30px 0px 0px -20px;" width="224" height="68" align="right" title="ToolTip!" alt="ToolTip!" src="logo.png" /><strong>ToolTip</strong><br /><span class="info" style="width: 180px">The Tooltip plugin can have different widths.</span>', { mode: 'trigger', display: 'inline', width: 450, style: 'default', sticky: 0 });</script><br />
+  
+ <strong>Width 450px and sticky option (sticky: 1):</strong> 
+  <div id="tooltip-8" class="tooltip-toggler">Hover here!</div>
+
+  <script type="text/javascript">new ToolTip('tooltip-8', '<img style="margin: 30px 0px 0px -20px;" width="224" height="68" align="right" title="ToolTip!" alt="ToolTip!" src="logo.png" /><strong>ToolTip</strong><br /><span class="info" style="width: 180px">The Tooltip plugin can have different widths.</span>', { mode: 'cursor', display: 'inline', width: 450, style: 'default', sticky: 1 });</script>
+</div>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-8573595-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>
