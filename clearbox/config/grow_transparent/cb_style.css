@@ -1,0 +1,308 @@
+/*
+// 	ClearBox Config File (CSS)
+*/
+
+.CB_TextNav, #CB_ShowTh, #CB_Thumbs2, #CB_Thumbs, .CB_RoundPixBugFix, #CB_Padding, #CB_ImgContainer, #CB_PrevNext, #CB_ContentHide, #CB_OSD, #CB_Text, #CB_Window, #CB_Image, #CB_TopLeft, #CB_Top, #CB_TopRight, #CB_Left, #CB_Content, #CB_Right, #CB_BtmLeft, #CB_Btm, #CB_BtmRight, #CB_Prev, #CB_Prev:hover, #CB_Prev:focus, #CB_Prev:active, #CB_Next, #CB_Next:hover, #CB_Next:focus, #CB_Next:active, #CB_CloseWindow, #CB_SlideShowS, #CB_SlideShowP, #CB_SlideShowBar, #CB_Email {
+	margin: 0;
+	padding: 0;
+	background-color: transparent;
+	border: 0;
+	outline-style: none;
+	outline: 0;
+}
+
+.absolute {
+	position: absolute;
+}
+
+#CB_NotImgContent {
+	position: absolute;
+	width: 0px;
+	height: 0px;
+}
+
+#CB_NotIC, #CB_NotImgContent {
+	border: none;
+	outline-style: none;
+	outline: 0;
+}
+
+#CB_Window {
+	width: 0px;
+	border-spacing: 0px;
+	border-width: 0px;
+}
+
+.CB_Sep {
+	color: #bbb;
+}
+
+.CB_TnThumbs {
+	width: 0px;
+	height: 0px;
+	border: 0px;
+	padding: 0;
+	margin: 0;
+	visibility: hidden;
+}
+
+.CB_BtmNav {
+	position: relative;
+	top: 4px;
+	border: 0;
+	padding: 0px 0px 0px 3px;
+}
+
+#CB_ImgHide {
+	position: absolute;
+	visibility: hidden;
+	z-index: 99999999;
+	left: 0px;
+}
+
+#CB_ShowTh {
+	width: 100%;
+	height: 20%;
+	visibility: hidden;
+	position: absolute;
+	z-index: 1097;
+	bottom: 0px;
+	left: 0px;
+}
+
+#CB_Thumbs {
+	display: none;
+	height: 62px;
+	padding-top: 10px;
+	position: absolute;
+	z-index: 1100;
+	overflow: hidden;
+	bottom: 0px;
+	left: 0px;
+}
+
+#CB_Thumbs2 {
+	margin: auto 0;
+	height: 52px;
+	position: absolute;
+}
+
+.CB_ThumbsImg {
+	position: absolute;
+	cursor: pointer;
+	border: 1px solid #000;
+}
+
+#CB_ThumbsActImg {
+	cursor: default;
+	border: 1px dotted #000;
+}
+
+.CB_RoundPixBugFix {
+	display: block;
+	visibility: hidden;
+	font-family: arial;
+	font-size: 1pt;
+}
+
+#CB_ImgContainer {
+	position: relative;
+	width: 100%;
+}
+
+#CB_PrevNext {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	z-index: 1002;
+}
+
+#CB_NavPrev, #CB_NavNext {
+	visibility: hidden;
+	position: absolute;
+	z-index: 1001;
+	top: 47%;
+	cursor: pointer;
+}
+
+#CB_NavPrev {
+	left: 18px;
+}
+
+#CB_NavNext {
+	right: 14px;
+}
+
+#CB_ContentHide {
+	position: absolute;
+	z-index: 1000;
+	top: 0px;
+	left: 0px;
+}
+
+#CB_OSD {
+	position: absolute;
+	left: 50%;
+	z-index: 5000;
+	font-family: arial;
+	font-size: 9pt;
+	color: #fff;
+	background-color: #000;
+	visibility: hidden;
+}
+
+#CB_Text {
+	position: relative;
+	text-align: left;
+	overflow: hidden;
+}
+
+#CB_TT, #CB_TC {
+	position: relative;
+}
+
+#CB_TT, #CB_HiddenText {
+	white-space: nowrap;
+}
+
+#CB_TC {
+	margin-top: 2px;
+	overflow-y: auto;
+}
+
+#CB_TG {
+	margin-top: -2px;
+}
+
+#CB_Window {
+	left:50%;
+	position:absolute;
+	top:50%;
+	visibility:hidden;
+	z-index: 1100;
+	border-collapse: separate;
+}
+
+#CB_Image {
+	position: relative;
+}
+
+#CB_TopLeft {
+	background-image:url(pic/s_topleft.png);
+	background-position:right bottom;
+}
+
+#CB_Top {
+	background-image:url(pic/s_top.png);
+	background-position:left bottom;
+}
+
+#CB_TopRight {
+	background-image:url(pic/s_topright.png);
+	background-position:left bottom;
+}
+
+#CB_Left {
+	background-image:url(pic/s_left.png);
+	background-position:right top;
+}
+
+#CB_Right {
+	background-image:url(pic/s_right.png);
+	background-position:left top;
+}
+
+#CB_BtmLeft {
+	background-image:url(pic/s_btmleft.png);
+	background-position:right top;
+}
+
+#CB_Btm {
+	background-image:url(pic/s_btm.png);
+	background-position:left top;
+}
+
+#CB_BtmRight {
+	background-image:url(pic/s_btmright.png);
+	background-position:left top;
+}
+
+#CB_Prev, #CB_Next {
+	background: transparent url(pic/blank.gif) no-repeat scroll 0%;
+	display: block;	
+	width: 49%;
+	cursor: pointer;
+	z-index: 1102;
+}
+
+.CB_TextNav {
+	text-decoration: underline;
+	padding-right: 5px;
+	color: #999;
+	cursor: pointer;
+	border: none;
+}
+
+.CB_TextNav:hover {
+	text-decoration: underline;
+	color: #555;
+	border: none;
+}
+
+#CB_Prev {
+	float: left;
+	left: 0px;
+}
+
+#CB_Next {
+	float: right;
+	left: 0px;
+}
+
+#CB_Prev:hover {
+background:transparent;
+}
+
+#CB_Next:hover {
+background:transparent;
+}
+
+#CB_CloseWindow {
+	position: absolute;
+	z-index: 1104;
+	cursor: pointer;
+}
+
+#CB_SlideShowS, #CB_SlideShowP {
+	position: absolute;
+	left: -27px;
+	top: -14px;
+	z-index: 1104;
+	cursor: pointer;
+}
+
+#CB_SlideShowBar {
+	width: 0px;
+	position: absolute;
+	height: 2px;
+	display: none;
+	z-index: 1102;
+}
+
+#CB_HiddenText, #CB_HiddenTextC {
+	position: absolute;
+	visibility: hidden;
+	z-index: -1000;
+	top: -100px;
+	left: -100000px;
+}
+
+.CB_PreloadBugFix {
+	width: 0px;
+	height: 0px;
+	z-index: -1000;
+	visibility: hidden;
+	position: absolute;
+}
