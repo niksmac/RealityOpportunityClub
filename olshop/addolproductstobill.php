@@ -77,7 +77,7 @@ $msg = '<br /><br /><br /><table width="95%" border="1" align="center" cellpaddi
 
 $frm = 'postmaster@ropclub.com';
 $subject = 'Product Order';
-$mailto = 'nikhilmkumar@gmail.com, info@ropclub.com';
+$mailto = 'someone@example.com, someone@example.com';
 
  
 //sendemail($frm, $subject, $mailto,$msg );

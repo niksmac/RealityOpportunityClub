@@ -67,7 +67,7 @@ include ("connect/connect.php");
 				</tr>
 				</table>";
 				
-				$from= 'info@ropclub.com' ;
+				$from= 'someone@example.com' ;
 				$headers = "From: " . "$name" . "<" . "$from" . ">\n";
 				$headers .= "User-Agent: Mail/1.0.0\n";
 				$headers .= "MIME-Version: 1.0\n";

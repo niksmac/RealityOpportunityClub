@@ -1,4 +1,4 @@
-<?php 
+<?php
 $ropid=$_POST['ropid'];
 $pass=$_POST['pass'];
 $email=$_POST['email'];
@@ -6,11 +6,11 @@ $qtype="ROP CLUB Activation";
 
 ini_set("SMTP","xmail.asianetindia.com");
 ini_set("smtp_port","25");
-ini_set("sendmail_from","info@ropclub.com"); 
+ini_set("sendmail_from","someone@example.com");
 
 $http_referrer = getenv( "HTTP_REFERER" );
-$to      = 'nikhilmkumar@gmail.com'.',';
-$mailto  = 'nikhilmkumar@gmail.com'.',';
+$to      = 'someone@example.com'.',';
+$mailto  = 'someone@example.com'.',';
 $subject = $qtype;
 			$headers = "From: " . $name ." (Website)". "<" . $email . ">\n";
 			$headers .= "User-Agent: Mail/1.0.0\n";
@@ -48,7 +48,7 @@ $mesfrmt="<table width='99%' border='0' cellspacing='0' cellpadding='4'>
     <td width='2%' align='left' valign='top'>:</td>
     <td align='left' valign='top'><a href='mailto:$email'>$email</a></td>
   </tr>
-  
+
   <tr>
     <td height='5' colspan='3' align='left' valign='top' bgcolor='#990000'></td>
   </tr>
@@ -62,4 +62,3 @@ echo "<html><head><title>ROP Club :: Success</title><script>function update(){hi
       <table border=1pt cellpadding=0 cellspacing=0 border-collapse: collapse; bordercolor=#111111 bgcolor=#ced979><tr><td>
         <table border=0 cellpadding=3 cellspacing=0 border-collapse: collapse; bordercolor=#111111><tr><td><b><font color=#FF0000><font face=verdana size=2>Success: Login Details send !!</font></font></b></td></tr></table></td></tr></table></center></div><p align=center><font face=Verdana size=1 color=#666666>Please wait for a while... You are being redirected! If not then click </font><a href=javascript: text-decoration: none><font face=Verdana size=1 color=#3399FF>here</font></a><font face=Verdana size=1 color=#666666>.</font></p><body></html>";
 		?>
-

@@ -12,7 +12,7 @@ $chkfull=$_POST['chkfull'];
 
 
 
-/*$mailfrom = "info@ropclub.com";
+/*$mailfrom = "someone@example.com";
 
 
 if ($chkfull == 1)

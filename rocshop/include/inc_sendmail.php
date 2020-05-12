@@ -20,7 +20,7 @@ $mailfrom = "www.ropclub.com : ";
 $http_referrer = getenv( "HTTP_REFERER" );
 $messageproper = "Name : ".$visitor."<br><br>Email : ". $visitormail . "<br><br> Message : ". $notes ;
 
-			$from= 'info@ropclub.com' ;
+			$from= 'someone@example.com' ;
 			$headers = "From: " . "ROC Shop Owner" . "<" . "$from" . ">\n";
 			$headers .= "User-Agent: Mail/1.0.0\n";
 			$headers .= "MIME-Version: 1.0\n";

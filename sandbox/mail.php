@@ -4,7 +4,7 @@ include("session.php");
 
 $frm = 'postmaster@ropclub.com';
 $subject = 'Hello';
-$mailto = 'nikhilmkumar@gmail.com';
+$mailto = 'someone@example.com';
 
 $msg = '<br /><br /><br /><table width="95%" border="1" align="center" cellpadding="4" cellspacing="0" bordercolor="#669933" style="border-collapse:collapse;">
   <tr>
